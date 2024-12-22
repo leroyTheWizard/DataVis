@@ -1,0 +1,19 @@
+{
+  "children": [
+    {
+      "name": "Land surface",
+      "children": [
+        {
+          "name": "stop drinking coffee",
+          "value": 10,
+          "area": "Information Land Area: km2"
+        },
+        {
+          "name": "stop using the airplane",
+          "value": 19,
+          "area": "Information Land Area: km2"
+        }
+      ]
+    }
+  ]
+}

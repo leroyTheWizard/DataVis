@@ -1,0 +1,35 @@
+{
+  "meta": "This data is based on: https://www.bfs.admin.ch/bfs/en/home/statistiken/raum-umwelt/bodennutzung-bedeckung.assetdetail.30245484.html",
+  "children": [
+        {
+          "name": "stop drinking coffee",
+          "value": 10,
+          "area": "Information Land Area: km2"
+        },
+        {
+          "name": "stop using the airplane",
+          "value": 19,
+          "area": "Information Land Area: km2"
+        },
+        {
+          "name": "being vegan",
+          "value": 200,
+          "area": "Information Land Area: km2"
+        },
+        {
+          "name": "spending 100CHF to charity",
+          "value": 3000,
+          "area": "Information Land Area: km2"
+        },
+        {
+          "name": "spending 1000CHF to charity",
+          "value": 4000,
+          "area": "Information Land Area: km2"
+        },
+        {
+          "name": "spending 1000CHF to charity",
+          "value": 400000,
+          "area": "Information Land Area: km2"
+        }
+      ]
+    } 
