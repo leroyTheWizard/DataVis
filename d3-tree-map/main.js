@@ -2,8 +2,8 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 console.log("Displaying dynamic treemap");
 
-const width = 800;
-const height = 800;
+const width = 1270;
+const height = 714;
 let svg;
 let allData = []; // To store all data from the JSON file
 let displayedData = []; // To store the currently displayed subset of data
@@ -65,7 +65,8 @@ function drawChart(data) {
       .create("svg")
       .attr("viewBox", [0, 0, width, height])
       .attr("width", width)
-      .attr("height", height);
+      .attr("height", height)
+      .attr("preserveAspectRatio", "xMidYMax"); // Align to the bottom center
     document.body.appendChild(svg.node());
   }
 
@@ -74,6 +75,7 @@ function drawChart(data) {
   const leafEnter = leaf
     .enter()
     .append("g")
+    .attr("y", height - 20)
     .attr("transform", (d) => `translate(${d.x0},${d.y0})`);
 
   leafEnter
